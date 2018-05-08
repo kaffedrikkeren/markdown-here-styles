@@ -25,11 +25,10 @@ pre, code {
 
 code {
   margin: 0 0.15em;
-  padding: 0 0.3em;
+  padding: 0.25em 0.5em;
   white-space: pre-wrap;
-  /*border: 1px solid #EAEAEA;*/
   background-color: #F8F8F8;
-  border-radius: 5px;
+  border-radius: 0.25em;
   display: inline; /* added to fix Yahoo block display of inline code */
 }
 
@@ -41,9 +40,8 @@ pre {
 pre code {
   white-space: pre;
   overflow: auto; /* fixes issue #70: Firefox/Thunderbird: Code blocks with horizontal scroll would have bad background colour */
-  border-radius: 5px;
-  /*border: 1px solid #CCC;*/
-  padding: 0.5em 0.7em;
+  border-radius: 0.25em;
+  padding: 1em 2em;
   display: block !important; /* added to counteract the Yahoo-specific `code` rule; without this, code blocks in Blogger are broken */
 }
 
